@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tool2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Red"
+    tools:context=".Activities.View.Profile">
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+<TextView
+    android:id="@+id/prof_tittle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:text="Profile"
+    android:gravity="center"
+    android:textColor="@color/White"
+    android:textStyle="bold"
+    android:fontFamily="@font/baloo"
+    android:textSize="40dp"
+    />
+
+
+
+        <LinearLayout
+            android:padding="3dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Name:"
+                android:id="@+id/profile_Text_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+           <!-- <EditText
+                android:layout_marginLeft="52dp"
+                android:id="@+id/profile_edit_fullName1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/displayName"
+                android:inputType="text"
+                android:textColor="@android:color/white" />-->
+        </LinearLayout>
+        <LinearLayout
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/profile_text_gender"
+                android:text="Gender:" />
+<!--
+            <Spinner
+                android:layout_marginLeft="67dp"
+                android:id="@+id/profile_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/gender">-->
+
+<!--            </Spinner>-->
+        </LinearLayout>
+        <LinearLayout
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/profile_Text_BloodGroup"
+                android:text="Blood Group:" />
+
+            <!--<Spinner
+                android:layout_marginLeft="13dp"
+                android:id="@+id/profile_BloodGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/Blood_Group">
+
+            </Spinner>-->
+        </LinearLayout>
+        <LinearLayout
+            android:padding="3dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/profile_text_phone"
+                android:text="Contact No:" />
+            <!--<EditText
+                android:layout_marginLeft="20dp"
+                android:id="@+id/profile_Profile_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/age"
+                android:inputType="numberDecimal"
+                android:textColor="@android:color/white" />-->
+        </LinearLayout>
+        <LinearLayout
+            android:padding="3dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/profile_text_age"
+                android:text="Contact No:" />
+           <!-- <EditText
+                android:layout_marginLeft="20dp"
+                android:id="@+id/profile_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/mobile"
+                android:inputType="text"
+                android:textColor="@android:color/white" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="3dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/profile_text_address"
+                android:text="Address:" />
+            <!--<EditText
+                android:layout_marginLeft="40dp"
+                android:id="@+id/profile_Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/userAddress"
+                android:inputType="text"
+                android:textColor="@android:color/white" />-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/Profile_text_division"
+                android:text="Division:" />
+
+           <!-- <Spinner
+                android:layout_marginLeft="42dp"
+                android:id="@+id/profile_Division"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:entries="@array/division_list">
+            </Spinner>-->
+        </LinearLayout>
+        <LinearLayout
+            android:padding="3dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/profile_text_email"
+                android:text="Email:" />
+           <!-- <EditText
+                android:layout_marginLeft="40dp"
+                android:id="@+id/profile_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_email"
+                android:inputType="text"
+                android:textColor="@android:color/white" />-->
+        </LinearLayout>
+        <LinearLayout
+            android:padding="3dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/profile_text_pass"
+                android:text="Password:" />
+          <!--  <EditText
+                android:layout_marginLeft="40dp"
+                android:id="@+id/profile_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/prompt_email"
+                android:inputType="text"
+                android:textColor="@android:color/white" />-->
+        </LinearLayout>
+
+
+
+
+      <!--  <Button
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/profile_button_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/signin_btn"
+            android:text="Update"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary" />-->
+
+        <Button
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/profile_logout_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/signin_btn"
+            android:text="LOG OUT"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary" />
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

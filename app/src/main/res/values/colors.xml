@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="Red">#FF0000</color>
+    <color name="Blood">#8a0303</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Black">#000000</color>
+    <color name="Gray">#808080</color>
+    <color name="lightpink">#FFB6C1</color>
+    <color name="primary_dark">#c13f31</color>
+    <color name="primary">#e74c3c</color>
+    <color name="white_creame">#FAEAE6</color>
+    <color name="Mapbox_White">#FFFFFF</color>
+    <color name="Mapbox_Blue">#0000FF</color>
+    <color name="Mapbox_GrayLight">#D3D3D3</color>
+
+
+<color name="blood_bank_ic_launcher_background">#FFE4E1</color>
+</resources>

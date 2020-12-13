@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Blood</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="achiev">Achievements</string>
+    <!-- Mapbox-->
+    <string name="access_token" translatable="false">pk.eyJ1IjoibXVuYXJhYmV5YTE4IiwiYSI6ImNraWg1Y3JiOTBsamMycG1xcTlucXMwaXMifQ.FfPyR-VhaRSuQ4zsyWmOgA</string>
+    <!-- Strings related to login -->
+    <string name="signup">Register</string>
+    <string name="age">Age</string>
+    <string name="prompt_email">Email</string>
+    <string name="register">Create an account</string>
+    <string name="forgotpass">Forgot password?</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_confirm_password">Confirm password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="reset">Reset</string>
+    <string name="displayName">Full Name</string>
+    <string name="mobile">Mobile No</string>
+    <string name="userAddress">Address</string>
+    <string name="nearH">Find nearest Hospitals</string>
+    <string name="fndBlood">Find Blood Donor</string>
+    <string name="lgout">Log out</string>
+    <string name="devinfo">About us</string>
+    <string name="bloodinfo">Blood Info</string>
+
+
+    <string-array name="division_list">
+        <item>Dhaka</item>
+        <item>Rajshahi</item>
+        <item>Barisal</item>
+        <item>Khulna</item>
+        <item>Sylhet</item>
+        <item>Rangpur</item>
+        <item>Chittagong</item>
+        <item>Mymensingh</item>
+
+    </string-array>
+
+    <array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </array>
+
+    <array name="Blood_Group">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </array>
+</resources>
